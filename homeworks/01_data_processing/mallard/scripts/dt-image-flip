@@ -1,44 +1,5 @@
 #!/usr/bin/env python
 
-import sys
-import cv2
-import numpy as np
-import os.path
+from dt_image import dt_image_flip
 
-input_path = sys.argv[1]
-output_path = sys.argv[2]
-
-if(not os.path.isfile(input_path)):
-    print("Error! Could not find image at " + input_path)
-    exit(2)
-
-if(output_path[-1] != '/'):
-    output_path = output_path + '/'
-
-try:
-    os.stat(output_path)
-except:
-    os.mkdir(output_path)  
-
-original_img = cv2.imread(input_path)
-
-try:
-    decoded = cv2.imdecode(original_img, 1)
-except Exception as e:
-    print("Error! Could not decode image at " + input_path + ":\n" + str(e))
-    exit(3)
-
-flipped_img = cv2.flip(original_img.copy(), 0)
-side_by_img = np.hstack((original_img, flipped_img))
-
-print("Writing images to " + output_path)
-cv2.imwrite(output_path + "regular.jpg", original_img)
-cv2.imwrite(output_path + "flip.jpg", flipped_img)
-cv2.imwrite(output_path + "side_by_side.jpg", side_by_img)
-
-#cv2.imshow("flipped", flipped_img)
-#cv2.waitKey(0)
-#cv2.destroyAllWindows()
-#cv2.imshow("side by", side_by_img)
-#cv2.waitKey(0)
-#cv2.destroyAllWindows()
+dt_image_flip()
