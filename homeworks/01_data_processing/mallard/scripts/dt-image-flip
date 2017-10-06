@@ -2,4 +2,11 @@
 
 from dt_image import dt_image_flip
 
-dt_image_flip()
+try:
+    dt_image_flip()
+except Exception as e:
+    print("Error:\n" + str(e))
+    #if("Premature end of JPEG" in str(e)):
+    #    exit(3)
+    print("Usage: dt-image-flip [file] [output_dir]")
+    exit(99)

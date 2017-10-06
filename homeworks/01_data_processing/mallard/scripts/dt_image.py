@@ -5,10 +5,9 @@ import cv2
 import numpy as np
 import os.path
 
-
 def check_path(path):
     if(not os.path.isfile(path)):
-        print("Error! Could not find image at " + input_path)
+        print("Error! Could not find image at " + path)
         exit(2)
 
 def dt_instagram():
@@ -36,7 +35,6 @@ def dt_instagram():
 def dt_image_flip():
     input_path = sys.argv[1]
     output_path = sys.argv[2]
-
 
     check_path(input_path)
 
