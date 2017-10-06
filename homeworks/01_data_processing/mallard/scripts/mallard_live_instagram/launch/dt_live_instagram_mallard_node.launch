@@ -1,5 +1,5 @@
 <launch>
-	<node name="dt_live_instagram_mallard_node" pkg="dt_live_instagram_mallard" type="dt_live_instagram_mallard.py" output="screen">
+	<node name="dt_live_instagram_mallard_node" pkg="dt_live_instagram_mallard" type="dt_live_instagram_mallard_node.py" output="screen">
 		<!-- Setup parameters -->
 		<param name="~pub_timestep" value="0.5"/>
 		<!-- Remapping topics -->

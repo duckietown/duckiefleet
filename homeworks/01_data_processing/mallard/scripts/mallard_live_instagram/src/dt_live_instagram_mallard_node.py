@@ -13,36 +13,35 @@ class dt_live_instagram_mallard_node:
     def __init__(self):
         '''Initialize ros publisher, ros subscriber'''
 
-        self.image_pub = rospy.Publisher("/camera/image/compressed/filters/compressed", CompressedImage)
+        self.image_pub = rospy.Publisher("/mallard/camera_node/compressed/filters/compressed", CompressedImage)
 
-        self.subscriber = rospy.Subscriber("/camera/image/compressed", CompressedImage, self.callback,  queue_size = 1)
+        self.subscriber = rospy.Subscriber("/mallard/camera_node/compressed", CompressedImage, self.callback,  queue_size = 1)
 
+    def apply_filters(img):
+        SEPIA_KERNEL = np.matrix('0.272, 0.534, 0.131; 0.349, 0.686, 0.168; 0.393, 0.769, 0.189')
+        GRAY_KERNEL = np.matrix('1,0,0;1,0,0;1,0,0')
+        filters = rospy.get_param('filter').split(',')
+        image = img.copy()
+
+        for filter in filters:
+            if(filter == 'grayscale'):
+                image = cv2.transform(image, GRAY_KERNEL)
+            elif(filter == 'sepia'):
+                image = cv2.transform(image, SEPIA_KERNEL)
+            elif(filter == 'flip_horizontal'):
+                image = cv2.flip(image, 1)
+            elif(filter == 'flip_vertical'):
+                image = cv2.flip(image, 0)
+
+        return image
 
     def callback(self, ros_data):
-        '''Callback function of subscribed topic. 
-        Here images get converted and features detected'''
-        print 'received image of type: "%s"' % ros_data.format
-
         #### direct conversion to CV2 ####
         np_arr = np.fromstring(ros_data.data, np.uint8)
         image_np = cv2.imdecode(np_arr, cv2.CV_LOAD_IMAGE_COLOR)
 
+        image_np = apply_filters(image_np)
         
-        SEPIA_KERNEL = np.matrix('0.272, 0.534, 0.131; 0.349, 0.686, 0.168; 0.393, 0.769, 0.189')
-        GRAY_KERNEL = np.matrix('1,0,0;1,0,0;1,0,0')
-
-        filters = rospy.get_param('filter').split(',')
-
-        for filter in filters:
-            if(filter == 'grayscale'):
-                image_np = cv2.transform(image_np, GRAY_KERNEL)
-            elif(filter == 'sepia'):
-                image_np = cv2.transform(image_np, SEPIA_KERNEL)
-            elif(filter == 'flip_horizontal'):
-                image_np = cv2.flip(image_np, 1)
-            elif(filter == 'flip_vertical'):
-                image_np = cv2.flip(image_np, 0)
-
         #### Create CompressedIamge ####
         msg = CompressedImage()
         msg.header.stamp = rospy.Time.now()
