@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>dt-live-instagram_shamrock</name>
+  <name>dt_live_instagram_mallard</name>
   <version>1.0.0</version>
   <description>
 The package `pkg_name` is a template for ROS packages.
