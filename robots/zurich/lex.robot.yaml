@@ -1,0 +1,8 @@
+owner: kindle
+hostname: lex
+username: julien
+description: >
+    Julien's bot for controls development.
+log:
+    2017-10-12: >
+        Made the bot alive.
