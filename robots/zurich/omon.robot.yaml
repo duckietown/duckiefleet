@@ -1,0 +1,8 @@
+owner: somml
+hostname: omon
+username: developer
+description: >
+    Luca's bot.
+log:
+    2017-10-07: >
+        Added to the fleet.
