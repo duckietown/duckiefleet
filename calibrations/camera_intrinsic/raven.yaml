@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [337.35048744109844, 0.0, 323.34881396570984, 0.0, 335.9435097041252, 206.49434707217517,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: raven/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.28115403440206554, 0.05499244889760173, -0.000507431611730039, -0.0005571231180591158,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [232.60296630859375, 0.0, 322.4040797312555, 0.0, 0.0, 266.8606262207031,
+    187.24041054075133, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
