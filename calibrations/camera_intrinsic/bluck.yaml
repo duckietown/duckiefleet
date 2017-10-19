@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [339.3769477412133, 0.0, 326.49437192993855, 0.0, 335.9601323962631, 240.60915119525254,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: bluck/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.31824049556129613, 0.09489732376452088, -0.0008236123027784916, -0.0012913566169813844,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [259.1397705078125, 0.0, 324.89264803282276, 0.0, 0.0, 272.2450256347656,
+    239.96017031895462, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
