@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [317.4122475025687, 0.0, 323.421104095926, 0.0, 313.69655374923514, 219.42303831848065,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: fobot/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.30914897618998677, 0.07430896753543108, 0.0035264732720868865, 0.0013817436374048628,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [226.9287567138672, 0.0, 325.16655626413376, 0.0, 0.0, 240.51547241210938,
+    210.8909192535575, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
