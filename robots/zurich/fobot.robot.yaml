@@ -5,4 +5,9 @@ description: Anna's car.
 log:
     2017-10-04: >
         set it up
+<<<<<<< HEAD:robots/zurich/fobot.robot.yaml
     2017-10-13:   
+=======
+    2017-10-13: 
+	
+>>>>>>> c7093c33b5235582790fe485afa828f8dac9cbe7:robots/fobot.robot.yaml
