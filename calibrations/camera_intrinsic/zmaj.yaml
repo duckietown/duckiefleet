@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [335.63416029432864, 0.0, 324.39830630527666, 0.0, 335.79038437193424, 223.45582965715312,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: zmaj/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.2729001174342985, 0.05281241646192449, 0.001870903957935573, -0.0003056874881917127,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [228.9573516845703, 0.0, 322.5151329266628, 0.0, 0.0, 276.2091369628906, 216.8415485913465,
+    0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
