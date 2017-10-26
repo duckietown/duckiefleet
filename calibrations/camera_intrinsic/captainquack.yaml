@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [342.66711464471194, 0.0, 304.14255497096815, 0.0, 339.14783141765747, 231.00842527940523,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: captainquack/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.28254585303960394, 0.06116086485410348, 0.0003722671383899093, -0.0011600003189673172,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [243.22573852539062, 0.0, 301.46326575188505, 0.0, 0.0, 279.3509521484375,
+    226.81057154129667, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3

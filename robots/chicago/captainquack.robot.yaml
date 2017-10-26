@@ -1,0 +1,7 @@
+owner: caspern
+hostname: captainquack
+username: casper
+description: This will be my car for Duckietown 2017.
+log:
+    2017-10-15: >
+        Assembled configuration C0.
