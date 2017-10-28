@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [347.8133499689039, 0.0, 322.32358217383137, 0.0, 347.4100656542835, 234.09691834967498,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: duangduang/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.28653241390403766, 0.06069728150201322, 0.0010048150493763566, -0.0009218327985885334,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [237.98435974121094, 0.0, 320.30597238110386, 0.0, 0.0, 288.7928466796875,
+    232.2208689601175, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
