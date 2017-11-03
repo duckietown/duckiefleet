@@ -1,5 +1,14 @@
 owner: leonietraffelet
 hostname: sam
 username: trleonie
+<<<<<<< HEAD
 description:
+=======
+<<<<<<< HEAD
+description: >
+    Leonie's duckiebot
+=======
+description:
+>>>>>>> a2c556f7ac5c1cdef5ff1bd5a63daa5db20bb052
+>>>>>>> e4d5c8979d03a4cd218a16d3df2a82c4927598b3
 log:
