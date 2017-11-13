@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [336.63406892963184, 0.0, 335.76337224647807, 0.0, 336.9045933430349, 229.9064623855919,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: thenuttynetter/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.32468297166846705, 0.1116412719704329, -0.0007997094687066619, -0.0008076966488041944,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [267.5772399902344, 0.0, 334.84293482365683, 0.0, 0.0, 275.19244384765625,
+    225.04399475906393, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
