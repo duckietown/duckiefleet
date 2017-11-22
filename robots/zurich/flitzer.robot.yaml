@@ -1,0 +1,8 @@
+owner: ackermann
+hostname: flitzer
+username: thomas
+description: >
+    this is thomas's car for our groupwork
+log:
+    2017-10-17: >
+        Initialization of the bot.
