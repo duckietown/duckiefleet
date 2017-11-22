@@ -1,8 +1,8 @@
-owner: Reza
-hostname: ordakgt
-username: reza
+owner: losa
+hostname: fergy
+username: sandro
 description: >
-    Reza's car.
+    Sandro's car.
 log:
     2017-08-01: >
         Switched RPI2 with RPI3.
