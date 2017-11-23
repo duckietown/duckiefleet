@@ -1,0 +1,7 @@
+owner: brianchuang
+hostname: mocap1
+username: fiwa
+description: motion capture system Pi3 unit
+log:
+    2017-11-24: >
+        Initialization
