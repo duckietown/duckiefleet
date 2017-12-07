@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [331.85319531772586, 0.0, 307.54025576860073, 0.0, 330.769680183922, 236.71488531816607,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: allenbot/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.28584341639992983, 0.0629441520084742, -0.001801304491601088, -0.0006571312642413482,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [234.29188537597656, 0.0, 309.1747526736308, 0.0, 0.0, 268.3145446777344,
+    232.67929109020588, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
