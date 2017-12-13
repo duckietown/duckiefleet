@@ -1,7 +1,8 @@
-owner: ryan
-hostname: backseatdriver
-username: ryan_duck
-description: car for 2017
+owner: gioele
+hostname: ducktrgio
+username: gioele
+description: >
+    Gioele's car.
 log:
     2017-08-01: >
         Switched RPI2 with RPI3.
