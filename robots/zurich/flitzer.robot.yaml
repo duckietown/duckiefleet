@@ -1,0 +1,8 @@
+owner: ackthomas
+hostname: flitzer
+username: thomas
+description: >
+    Groupworks duckiebots.
+log:
+    2017-10-17: >
+        Initialization of the bot.
