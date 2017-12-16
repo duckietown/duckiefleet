@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 owner: Theodore Koutros
 hostname: bluck
 username: teddy
@@ -6,15 +5,4 @@ description: >
     Theo's car
 log:
     2017-09-05: robot was created 
-=======
-owner: koutros
-hostname: bluck
-username: teddy
-description: >
-    Theo's car.
-log:
-    2017-10-10: >
-        Switched RPI2 with RPI3.
-    2017-08-20: >
-        There is something wrong with the PWM hat and the LEDs.
->>>>>>> c0eb79ce9fdfa38915feb2b41e583453955fa486
+
