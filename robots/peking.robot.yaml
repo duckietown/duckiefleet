@@ -2,7 +2,7 @@ owner: Simon Bing - ETHZ
 hostname: peking
 username: bing
 description: >
-    Simon's car.
+    Simon's cat.
 log:
     2017-08-01: >
         Switched RPI2 with RPI3.
