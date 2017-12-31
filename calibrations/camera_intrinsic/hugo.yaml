@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [366.30900291484573, 0.0, 316.58582680734213, 0.0, 359.313068566693, 263.68751517204316,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: hugo/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.3007850666108419, 0.0727774652926962, -0.004874085852609348, -0.0010673346765396768,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [263.2691650390625, 0.0, 314.1233818109031, 0.0, 0.0, 300.67596435546875,
+    269.49902643036694, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
