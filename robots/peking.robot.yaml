@@ -1,8 +1,8 @@
-owner: Reza
-hostname: ordakgt
-username: reza
+owner: Simon Bing - ETHZ
+hostname: peking
+username: bing
 description: >
-    Reza's car.
+    Simon's cat.
 log:
     2017-08-01: >
         Switched RPI2 with RPI3.

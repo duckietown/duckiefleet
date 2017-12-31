@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [329.70082383321136, 0.0, 296.8925327873946, 0.0, 329.3110568106189, 237.766868672952,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: luckybot/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.2957295192757702, 0.0695522197788376, -0.0006970549275791398, 0.00026748921834391395,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [234.73507690429688, 0.0, 298.0583335179872, 0.0, 0.0, 264.3259582519531,
+    235.59953042446614, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
