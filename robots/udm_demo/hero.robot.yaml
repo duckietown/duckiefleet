@@ -1,0 +1,8 @@
+owner: udm_demo
+hostname: hero
+username: demo
+description: >
+    UdM Demo Instances.
+log:
+    2018-01-11: >
+        Initial commit.
