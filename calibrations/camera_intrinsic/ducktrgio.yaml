@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [327.7208607114762, 0.0, 311.98398804387665, 0.0, 327.3364845560231, 244.54865066244778,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: ducktrgio/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.30138616374956184, 0.07346689282398493, 6.353659889128573e-06, -0.0012079046708984725,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [236.65196228027344, 0.0, 309.8433798164442, 0.0, 0.0, 261.30059814453125,
+    247.22136989771752, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
