@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [413.25813266418356, 0.0, 311.4537223086692, 0.0, 411.6802481389111, 249.37354267019387,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: coolduck/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.4185195713473706, 0.12319972943717142, -0.0006687097975402205, 0.005115512992257996,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [280.1856384277344, 0.0, 319.81563904048744, 0.0, 0.0, 337.3662109375, 253.91997320507653,
+    0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
