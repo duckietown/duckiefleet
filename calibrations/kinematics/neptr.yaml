@@ -1,9 +1,16 @@
+<<<<<<< HEAD
                                                                  
+=======
+>>>>>>> c8514baf7eac3e3ed4f40f48b57fd2a4628f863d
 baseline: 0.1
 gain: 0.6
 k: 27.0
 limit: 1.0
 radius: 0.0318
+<<<<<<< HEAD
 trim: -0.1
+=======
+trim: -0.05
+>>>>>>> c8514baf7eac3e3ed4f40f48b57fd2a4628f863d
 
 

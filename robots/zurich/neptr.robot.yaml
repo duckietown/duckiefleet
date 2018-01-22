@@ -1,5 +1,11 @@
 owner: FlinHoepflinger
 hostname: neptr
 username: flin
+<<<<<<< HEAD
 description: flin's car.
 log:
+=======
+description: Flin's car.
+log:
+     2017-10-14: created this file
+>>>>>>> c8514baf7eac3e3ed4f40f48b57fd2a4628f863d
