@@ -1,0 +1,5 @@
+owner: eth_idsc
+hostname: trafficlight8
+username: tlo
+description: traffic light V2018A with adressable LEDs
+log:
