@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [337.8464597912938, 0.0, 306.3031370211484, 0.0, 340.40729599601593, 234.1583848682194,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: noahsduck/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.26739761166488374, 0.05317450789427506, -0.0008249408569767199, 0.0009555347880358662,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [235.3307342529297, 0.0, 305.00066748804784, 0.0, 0.0, 284.61505126953125,
+    230.50640096059578, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
