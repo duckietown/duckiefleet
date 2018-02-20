@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [333.28137336739206, 0.0, 307.2928556445832, 0.0, 331.8933939789126, 231.7639906774108,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: nocciolino/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.32246895723653707, 0.08362308951131904, -0.0031970683919011252, -0.0004979941189237782,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [240.2969512939453, 0.0, 305.5750972815531, 0.0, 0.0, 260.3639221191406, 222.46105958591215,
+    0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
