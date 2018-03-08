@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [543.533088605142, 0.0, 302.84567789015404, 0.0, 539.5706115997481, 248.78335060540746,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: trafficlight3/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.5889809853750606, 0.29628902828312653, 0.006032848477072839, -0.008075462633838851,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [404.36602783203125, 0.0, 281.1747088390657, 0.0, 0.0, 464.2034606933594,
+    255.48184996225064, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
