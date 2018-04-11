@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [364.9878680019017, 0.0, 309.25440098440043, 0.0, 360.89515669882434, 228.59462212243656,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: kada/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.34044616322339416, 0.09480853462513696, 0.003772276622336916, -0.0018884064026068058,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [265.2168884277344, 0.0, 307.9062195394836, 0.0, 0.0, 294.46014404296875,
+    226.67880842669547, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
