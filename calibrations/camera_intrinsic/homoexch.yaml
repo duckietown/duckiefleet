@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [337.7490906165495, 0.0, 304.2497673182086, 0.0, 337.283406297823, 227.32228385940772,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: homoexch/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.2845438787977019, 0.06150135945366052, 0.0017334762709819544, 0.0005851202507711787,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [237.42483520507812, 0.0, 307.74158920437185, 0.0, 0.0, 276.4060974121094,
+    222.60459118606377, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
