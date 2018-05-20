@@ -1,0 +1,8 @@
+owner: panos
+hostname: airockstar
+username: panos
+description: >
+    Panos' car.
+log:
+    2018-05-19: >
+        Robot was built and setup up
