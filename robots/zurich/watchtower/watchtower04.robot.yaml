@@ -1,5 +1,5 @@
 owner: eth_idsc 
-hostname: watchtower2
+hostname: watchtower04
 username: mom
 description: watchtower, RaspberryPi with Camera
 log:
