@@ -1,0 +1,5 @@
+owner: eth_idsc 
+hostname: watchtower16
+username: mom
+description: watchtower, RaspberryPi with Camera
+log:
