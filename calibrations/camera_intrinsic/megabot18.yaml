@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [335.349833361305, 0.0, 314.26422690446446, 0.0, 334.78879154245345, 242.37384495239596,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: megabot18/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.2904844956970394, 0.06539153059695194, -0.00015631581922431978, 0.0005792227333404396,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [237.5626220703125, 0.0, 316.19587127197883, 0.0, 0.0, 272.7619934082031,
+    243.49491239967392, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
