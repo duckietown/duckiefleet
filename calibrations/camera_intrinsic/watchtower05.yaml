@@ -3,7 +3,7 @@ camera_matrix:
   data: [339.44667889175577, 0.0, 313.11515503172285, 0.0, 338.12420617763735, 232.27628525970727,
     0.0, 0.0, 1.0]
   rows: 3
-camera_name: watchtower01/camera_node
+camera_name: watchtower05/camera_node
 distortion_coefficients:
   cols: 5
   data: [-0.2862389523527166, 0.060199402273496676, 0.0013507616942345778, 0.0019504248716061883,
