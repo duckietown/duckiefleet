@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [329.7285785288454, 0.0, 323.4715246180442, 0.0, 333.1622479209457, 260.8367185872338,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: nips1/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.26825218671473544, 0.05099036072471214, 0.002972949078628446, 0.0009041097745292761,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [226.28439331054688, 0.0, 323.29884516218226, 0.0, 0.0, 270.67047119140625,
+    275.3664635463065, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
