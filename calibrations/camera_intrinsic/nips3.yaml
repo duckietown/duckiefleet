@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [337.6630168827665, 0.0, 323.7128197264391, 0.0, 332.3410204712517, 254.3496281203503,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: excalibot/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.30874600637655863, 0.0865826527886238, 0.0024400397832271747, 0.0008441569655192285,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [254.81423950195312, 0.0, 324.3491535629546, 0.0, 0.0, 267.4727783203125,
+    264.2701451138928, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3

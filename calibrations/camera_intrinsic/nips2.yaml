@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [349.95655097488924, 0.0, 312.51920320795284, 0.0, 344.7945515065475, 254.33176154092192,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: mrquackers/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.3001452948610037, 0.0725934769604805, -0.0005261894340002833, 0.0008253273033365976,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [251.48558044433594, 0.0, 314.94163415310686, 0.0, 0.0, 282.7152404785156,
+    261.0088975601848, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
