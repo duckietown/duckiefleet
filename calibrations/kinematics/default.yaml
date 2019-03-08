@@ -8,4 +8,5 @@ gain_servo: 0.1
 trim_servo: 0.0
 axis_distance: 0.105
 cog_distance: 0.0525
-~                          
+angle_lim: 0.611
+wheel_to_servo_factor: 0.83                         
